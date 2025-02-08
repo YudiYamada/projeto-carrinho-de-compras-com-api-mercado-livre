@@ -2,6 +2,7 @@ import React from "react";
 import propTypes from 'prop-types'
 import { SectionProductCard, CardImage, CardInfos, CardPrice, CardTitle, ButtonAddCart } from "./ProductCard.styles"
 import { BsFillCartPlusFill } from "react-icons/bs"
+import formatCurrency from "../utils/formatCurrency";
 
 function ProductCard({ data }) {
     
@@ -10,11 +11,11 @@ function ProductCard({ data }) {
     return ( 
         <SectionProductCard>
             <CardImage 
-            src={thumbnail}
+            src={thumbnail.replace(/\w\.jpg/gi, 'W.jpg')}
             alt="product" />
 
             <CardInfos>
-                <CardPrice>{price}</CardPrice>
+                <CardPrice>{formatCurrency(price, "BRL")}</CardPrice>
                 <CardTitle>{title}</CardTitle>
             </CardInfos>
 

@@ -10,13 +10,12 @@ function Products() {
     useEffect(() => {
         fetchProducts("samsung s25").then((response) =>{
             setProducts(response)
-            console.log(products)
         })
     }, [products])
 
     return (
         <SectionProductsStyled className="container">
-            <ProductCard data={{title: "yudi"}} />
+            {products.map((product) => <ProductCard key={product.id} data={product} />)}
         </SectionProductsStyled>
     )
 }

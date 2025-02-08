@@ -4,6 +4,7 @@ export const HeaderStyled = styled.header`
   background-color: #fff159;
   position: fixed;
   width: 100%;  
+  z-index: 1;
 `;
 
 export const ContainerStyled = styled.div`
