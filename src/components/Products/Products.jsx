@@ -7,7 +7,7 @@ import Loading from "../Loading/Loading";
 function Products() {
 
     const [products, setProducts] = useState([])
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
 
 
     useEffect(() => {
@@ -18,7 +18,8 @@ function Products() {
     }, [])
 
     return (
-        (loading && <Loading />) || (<SectionProductsStyled className="container">
+        (loading && <Loading />) || 
+        (<SectionProductsStyled className="container">
             {products.map((product) => <ProductCard key={product.id} data={product} />)}
         </SectionProductsStyled>)
     )
