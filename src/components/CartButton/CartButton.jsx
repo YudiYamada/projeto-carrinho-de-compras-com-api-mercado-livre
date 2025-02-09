@@ -1,15 +1,15 @@
-import React from 'react';
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { CartButtonStyled, CartStatus } from "./CartButton.Styles"
+import React from 'react'
+import { AiOutlineShoppingCart } from "react-icons/ai"
+import { ButtonCartStyled, SpanCartStatusStyled } from "./CartButton.Styles"
 
 
 function CartButton() {
     return ( 
-        <CartButtonStyled type='button'>
+        <ButtonCartStyled type='button'>
             <AiOutlineShoppingCart />
-            <CartStatus>1</CartStatus>
-        </CartButtonStyled>
-     );
+            <SpanCartStatusStyled>1</SpanCartStatusStyled>
+        </ButtonCartStyled>
+     )
 }
 
-export default CartButton;
+export default CartButton

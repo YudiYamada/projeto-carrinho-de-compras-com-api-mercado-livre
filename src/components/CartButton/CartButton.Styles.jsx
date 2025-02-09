@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-export const CartButtonStyled = styled.button`
+export const ButtonCartStyled = styled.button`
     font-size: 1rem;
     display: flex;
     align-items: center;
@@ -12,9 +12,9 @@ export const CartButtonStyled = styled.button`
     position: relative;
     margin-left: 20px;
     color: #333;
-`;
+`
 
-export const CartStatus = styled.span`
+export const SpanCartStatusStyled = styled.span`
     background: red;
     width: 15px;
     height: 15px;
@@ -28,4 +28,4 @@ export const CartStatus = styled.span`
     display: flex;
     align-items: center;
     justify-content: center;
-`;
+`

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SearchBarStyled = styled.form`
+export const FormSearchBarStyled = styled.form`
     display: flex;
     background: #fff;
     width: 100%;
@@ -21,7 +21,7 @@ export const InputStyled = styled.input`
     border-right: 1px solid #ddd;
 `;
 
-export const SearchButtonStyled = styled.button`
+export const ButtonSearchStyled = styled.button`
     background: none;
     border: none;
     font-size: 1rem;

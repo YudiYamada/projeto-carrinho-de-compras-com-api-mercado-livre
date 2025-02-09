@@ -1,12 +1,12 @@
-import React from "react";
-import { LoaderWrapper, LoaderIcon } from "./Loading.styles";
+import React from "react"
+import { DivLoaderWrapperStyled, LoaderIconStyled } from "./Loading.styles"
 
 function Loading() {
   return (
-    <LoaderWrapper>
-      <LoaderIcon />
-    </LoaderWrapper>
-  );
+    <DivLoaderWrapperStyled>
+      <LoaderIconStyled />
+    </DivLoaderWrapperStyled>
+  )
 }
 
-export default Loading;
+export default Loading

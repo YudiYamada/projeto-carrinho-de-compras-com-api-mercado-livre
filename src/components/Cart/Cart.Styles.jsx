@@ -1,13 +1,13 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const SectionCartStyled = styled.section`
-
+    background-color: brown;
 `
 
-export const DivCartItens = styled.div`
-
+export const DivCartItensStyled = styled.div`
+    background-color: brown;
 `
 
-export const DivCartResume = styled.div`
-
+export const DivCartResumeStyled = styled.div`
+    background-color: brown;
 `

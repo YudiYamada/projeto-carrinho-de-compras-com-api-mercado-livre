@@ -1,14 +1,14 @@
-import React from "react";
-import { SectionStyled, DivCartItens, DivCartResume } from "./Cart.Styles";
+import React from "react"
+import { SectionCartStyled, DivCartItensStyled, DivCartResumeStyled } from "./Cart.Styles"
 
 function Cart() {
     return ( 
         <SectionCartStyled>
-            <DivCartItens>itens do carrinho</DivCartItens>
+            <DivCartItensStyled>itens do carrinho</DivCartItensStyled>
 
-            <DivCartResume>resumo do carrinho</DivCartResume>
+            <DivCartResumeStyled>resumo do carrinho</DivCartResumeStyled>
         </SectionCartStyled>
-     );
+     )
 }
 
-export default Cart;
+export default Cart

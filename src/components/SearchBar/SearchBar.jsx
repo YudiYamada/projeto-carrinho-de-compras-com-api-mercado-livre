@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 import { BsSearch } from "react-icons/bs";
-import { SearchBarStyled, InputStyled, SearchButtonStyled } from "./SearchBar.styles"
+import { FormSearchBarStyled, InputStyled, ButtonSearchStyled } from "./SearchBar.styles"
 import fetchProducts from '../../api/fetchProducts';
 import AppContext from '../../context/AppContext';
 
@@ -19,7 +19,7 @@ function SearchBar() {
   }
 
   return (
-    <SearchBarStyled onSubmit={handleSearch}>
+    <FormSearchBarStyled onSubmit={handleSearch}>
       {name}
       <InputStyled
         type="search"
@@ -28,10 +28,10 @@ function SearchBar() {
         onChange={ ({ target }) => setSearchValue(target.value) }
         required
       />
-      <SearchButtonStyled type="submit">
+      <ButtonSearchStyled type="submit">
         <BsSearch />
-      </SearchButtonStyled>
-    </SearchBarStyled>
+      </ButtonSearchStyled>
+    </FormSearchBarStyled>
   );
 }
 

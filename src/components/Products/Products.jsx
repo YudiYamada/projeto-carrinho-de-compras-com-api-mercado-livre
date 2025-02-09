@@ -1,9 +1,9 @@
-import React, { useEffect, useContext } from "react";
+import React, { useEffect, useContext } from "react"
 import { SectionProductsStyled } from "./Products.styles"
-import fetchProducts from "../../api/fetchProducts";
-import ProductCard from "../ProductCard/ProductCard";
-import Loading from "../Loading/Loading";
-import AppContext from "../../context/AppContext";
+import fetchProducts from "../../api/fetchProducts"
+import ProductCard from "../ProductCard/ProductCard"
+import Loading from "../Loading/Loading"
+import AppContext from "../../context/AppContext"
 
 function Products() {
 

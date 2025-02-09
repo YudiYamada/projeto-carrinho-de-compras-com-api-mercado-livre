@@ -1,5 +1,5 @@
-import styled, { keyframes } from "styled-components";
-import { BiLoaderAlt } from "react-icons/bi";
+import styled, { keyframes } from "styled-components"
+import { BiLoaderAlt } from "react-icons/bi"
 
 const spin = keyframes`
   from {
@@ -8,17 +8,17 @@ const spin = keyframes`
   to {
     transform: rotate(360deg);
   }
-`;
+`
 
-export const LoaderWrapper = styled.div`
+export const DivLoaderWrapperStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-`;
+`
 
-export const LoaderIcon = styled(BiLoaderAlt)`
+export const LoaderIconStyled = styled(BiLoaderAlt)`
   font-size: 2rem;
   animation: ${spin} 1s linear infinite;
   display: inline-block;
-`;
+`

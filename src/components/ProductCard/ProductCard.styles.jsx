@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ButtonAddCart = styled.button`
+export const ButtonAddCartStyled = styled.button`
     position: absolute;
     top: 0;
     right: 0;
@@ -18,7 +18,7 @@ export const ButtonAddCart = styled.button`
     cursor: pointer;
 `;
 
-export const SectionProductCard = styled.section`
+export const SectionProductCardStyled = styled.section`
   width: 100%;
   max-width: 300px;
   background-color: #fff;
@@ -32,28 +32,28 @@ export const SectionProductCard = styled.section`
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  &:hover ${ButtonAddCart} {
+  &:hover ${ButtonAddCartStyled} {
     display: flex;
   }
 `;
 
-export const CardImage = styled.img`
+export const ImgCardImageStyled = styled.img`
   width: 100%;
 `;
 
-export const CardInfos = styled.div`
+export const DivCardInfosStyled = styled.div`
     padding: 20px;
     border-top: 1px solid #ddd;
 `;
 
-export const CardPrice = styled.h2`
+export const H2CardPriceStyled = styled.h2`
     font-size: 30px;
     font-weight: 400;
     display: block;
     margin-bottom: 10px;
 `;
 
-export const CardTitle = styled.h2`
+export const H2CardTitleStyled = styled.h2`
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
     line-height: 1.5;
