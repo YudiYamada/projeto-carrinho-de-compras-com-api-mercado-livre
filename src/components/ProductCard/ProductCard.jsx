@@ -2,7 +2,7 @@ import React from "react";
 import propTypes from 'prop-types'
 import { SectionProductCard, CardImage, CardInfos, CardPrice, CardTitle, ButtonAddCart } from "./ProductCard.styles"
 import { BsFillCartPlusFill } from "react-icons/bs"
-import formatCurrency from "../utils/formatCurrency";
+import formatCurrency from "../../utils/formatCurrency";
 
 function ProductCard({ data }) {
     
