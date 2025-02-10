@@ -2,14 +2,15 @@
 
 Este projeto é um exemplo de um carrinho de compras utilizando React e Vite, consumindo a API do Mercado Livre. Ele permite aos usuários buscar produtos, adicionar ao carrinho e visualizar detalhes dos itens.
 
-## [Vizualize o projeto clicando aqui](https://yudiyamada.github.io/projeto-carrinho-de-compras-com-api-mercado-livre/) ##
+## [Visualize o projeto clicando aqui](https://yudiyamada.github.io/projeto-carrinho-de-compras-com-api-mercado-livre/)
 
 ## Índice
 
 - [Funcionalidades](#funcionalidades)
+- [Instalação](#instalação)
+- [Uso](#uso)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Contribuindo](#contribuindo)
-- [Licença](#licença)
 
 ## Funcionalidades
 
@@ -17,6 +18,33 @@ Este projeto é um exemplo de um carrinho de compras utilizando React e Vite, co
 - Visualizar detalhes dos produtos
 - Adicionar e remover produtos do carrinho de compras
 - Visualizar e editar o carrinho de compras
+
+## Instalação
+
+Para instalar e rodar este projeto localmente, siga estas etapas:
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/YudiYamada/projeto-carrinho-de-compras-com-api-mercado-livre.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd projeto-carrinho-de-compras-com-api-mercado-livre
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+## Uso
+
+Para iniciar o projeto, execute:
+
+```bash
+npm run dev
+```
+
+Abra [http://localhost:3000](http://localhost:3000) para ver o projeto no navegador.
 
 ## Tecnologias Utilizadas
 
