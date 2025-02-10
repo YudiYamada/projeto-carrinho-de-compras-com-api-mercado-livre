@@ -10,7 +10,7 @@ function Products() {
     const { products, setProducts, loading, setLoading } = useContext(AppContext)
 
     useEffect(() => {
-        fetchProducts("samsung s25").then((response) => {
+        fetchProducts("Brinquedos").then((response) => {
             setProducts(response)
             setLoading(false)
         })
