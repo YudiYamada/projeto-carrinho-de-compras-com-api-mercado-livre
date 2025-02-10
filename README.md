@@ -35,10 +35,6 @@ Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs 
 4. Faça um push para a branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
 ---
 
 Feito por [Yudi Yamada](https://github.com/YudiYamada)
