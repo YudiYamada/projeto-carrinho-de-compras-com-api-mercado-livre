@@ -88,6 +88,7 @@ Error generating stack: `+l.message+`
     align-items: center;
     justify-content: center;
     color: #333;
+    cursor: pointer;
 `,f1=async i=>(await(await fetch(`https://api.mercadolibre.com/sites/MLB/search?q=${i}`)).json()).results,iu=$t.createContext();function ig(){const{setProducts:i,setLoading:r}=$t.useContext(iu),[o,f]=$t.useState(""),y=async E=>{E.preventDefault(),r(!0);const _=await f1(o);i(_),r(!1),f("")};return k.jsxs(ug,{onSubmit:y,children:[name,k.jsx(ag,{type:"search",value:o,placeholder:"Buscar Produtos",onChange:({target:E})=>f(E.value),required:!0}),k.jsx(ng,{type:"submit",children:k.jsx(lg,{})})]})}const cg=Ot.header`
   background-color: #fff159;
   position: fixed;
@@ -193,7 +194,7 @@ Error generating stack: `+l.message+`
   font-size: 2rem;
   animation: ${Og} 1s linear infinite;
   display: inline-block;
-`;function Rg(){return k.jsx(_g,{children:k.jsx(Dg,{})})}function Mg(){const{products:i,setProducts:r,loading:o,setLoading:f}=$t.useContext(iu);return $t.useEffect(()=>{f1("samsung s25").then(y=>{r(y),f(!1)})},[]),o&&k.jsx(Rg,{})||k.jsx(yg,{className:"container",children:i.map(y=>k.jsx(o1,{data:y},y.id))})}function d1({children:i}){const[r,o]=$t.useState([]),[f,y]=$t.useState([]),[E,_]=$t.useState(!0),[U,z]=$t.useState(!1),S={products:r,setProducts:o,loading:E,setLoading:_,cartItems:f,setCartItems:y,isCartVisible:U,setIsCartVisible:z};return k.jsx(iu.Provider,{value:S,children:i})}d1.propTypes={children:r1.any}.isRequired;const Ug=Ot.section`
+`;function Rg(){return k.jsx(_g,{children:k.jsx(Dg,{})})}function Mg(){const{products:i,setProducts:r,loading:o,setLoading:f}=$t.useContext(iu);return $t.useEffect(()=>{f1("Brinquedos").then(y=>{r(y),f(!1)})},[]),o&&k.jsx(Rg,{})||k.jsx(yg,{className:"container",children:i.map(y=>k.jsx(o1,{data:y},y.id))})}function d1({children:i}){const[r,o]=$t.useState([]),[f,y]=$t.useState([]),[E,_]=$t.useState(!0),[U,z]=$t.useState(!1),S={products:r,setProducts:o,loading:E,setLoading:_,cartItems:f,setCartItems:y,isCartVisible:U,setIsCartVisible:z};return k.jsx(iu.Provider,{value:S,children:i})}d1.propTypes={children:r1.any}.isRequired;const Ug=Ot.section`
     width: 100%;
     max-width: 330px;
     background-color: white;
